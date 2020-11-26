@@ -89,7 +89,7 @@ function draw() {
   //displaying score
   text("Score: "+ score, windowWidth - 100,50);
   
-  text("HighScore: "+ localStorage["HighestScore"],         windowHeight-150,50);
+  text("HighScore: "+ localStorage["HighestScore"],windowWidth-150,50);
   
   if(gameState === PLAY){
 
